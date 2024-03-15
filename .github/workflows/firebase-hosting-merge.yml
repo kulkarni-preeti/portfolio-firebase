@@ -15,7 +15,10 @@ jobs:
       - run: npm install
       - run: ng build
       - run: ls -la
-      - run: cd dist/angular-portfolio
+      - run: cd dist
+      - run: ls -la
+      - run: cd angular-portfolio
+      - run: ls -la
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
