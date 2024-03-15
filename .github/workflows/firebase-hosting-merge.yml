@@ -16,7 +16,7 @@ jobs:
       - run: ng build
       - run: ls -la dist/angular-portfolio
       - run: ls -la dist/angular-portfolio/browser
-
+      - run: cat dist/angular-portfolio/browser/index.html
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
