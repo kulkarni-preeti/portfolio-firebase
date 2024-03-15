@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+i {
+  padding: 1em;
+}
+
+.last-icon::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 300px;
+  margin: 0px auto;
+  background-color: #a8b2d1;
+}

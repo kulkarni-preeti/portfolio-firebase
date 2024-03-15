@@ -1,0 +1,105 @@
+<app-header></app-header>
+<app-socials></app-socials>
+<div class= "content">
+  <div class="landing">
+    <span class="content-name">Preeti Kulkarni.</span><br>
+    <span class="content-shortdesc">I build things for the web.</span><br>
+    <span class="content-desc">Trekking through code's trails, navigating algorithms like mountain passes, bugs as my trusted sidekicks, amplifying the thrill of the journey.</span><br>
+    <button id="emailButton" class="btn btn-primary">Let's connect!</button>
+  </div>
+  <div id="about">
+    <h2 class="numbered-heading">
+      About Me
+    </h2>
+    <section class="about-section">
+      <div>
+        <p>
+          I'm Preeti Kulkarni. You'll often find me embarking on mountain trails and conquering peaks. A spirited trekker, exploring the boundless beauty of nature and navigating the realms of Software Development, pursuing masters at Northeastern University. In my 2 years and 7 months as an Associate Software Engineer at Finastra, a global fintech leader, I orchestrated numerous Go-Live rollouts for top-tier banks, resolved critical defects, and delivered successful releases.
+        </p>
+        <p>
+          Currently my primary goal is to construct inclusive and accessible digital products and experiences for diverse audiences.
+        </p>
+      </div>
+      <div class="section-profile">
+        <img src="../../../assets/profile.svg" class="profile-image">
+      </div>
+    </section>
+  </div>
+  <div id="experiences">
+    <h2 class="numbered-heading">
+      Experiences
+    </h2>
+    <section class="exp-section">
+      <div class="row">
+        <div class="col-xl-12">
+           <ul class="timeline-list">
+              <!-- Single Experience -->
+              <li>
+                 <div class="timeline_content">
+                    <span>Aug 2021 - June 2023</span>
+                    <h4>Associate Software Engineer</h4>
+                    <p>Collaborated globally on customization projects, addressing critical client defects, executing go-live projects, and enhancing the user interface, demonstrating effective communication and problem-solving skills.</p>
+                 </div>
+              </li>
+              <!-- Single Experience -->
+              <li>
+                 <div class="timeline_content">
+                 <span>Jan 2021-Aug 2021</span>
+                    <h4>Software Engineer Intern</h4>
+                    <p>Finastra Software Solutions</p>
+                    <p>Distinguished for improving code quality by resolving latent bugs, achieving significant cost reduction, and overseeing CI/CD pipelines with tools like SonarQube and Azure DevOps, leading to an impressive 70% reduction in development effort during the internship.</p>
+                 </div>
+              </li>
+           </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="projects">
+    <h2 class="numbered-heading">
+      Projects
+    </h2>
+    <section class="projects-section">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/rental_management.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="project-title">Rental Management</h5>
+          <p class="project-description">Enabling customers to rent cars, bikes, laptops, and phones. Admins manage bookings, availability, and handle customer complaints, assigning mechanics or technicians for issue resolution.</p>
+          <p class="project-skills"></p>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/voyage.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="project-title">Voyage</h5>
+            <p class="project description">User-friendly web app transforming flight bookings. It offers personalized preferences, real-time notifications, secure payments, loyalty points, and a travel history mapping feature</p>
+            <p class="project-skills"></p>
+          </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../../../assets/digital_library.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="project-title">Digital Library</h5>
+              <p class="project-description">Developed a dedicated platform for students providing essential academic, placement, and higher studies resources, including courses, research papers, projects, notes, and efficient notification delivery via telegram API and a chatbot.</p>
+              <p class="project-skills"></p>
+            </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="../../../assets/energy_efficiency.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="project-title">EV Energy Calculator</h5>
+                <p class="project-description">Solving Electric Vehicle issues with an embedded system tracking real-time battery data and a mobile app (Android/iOS) displaying battery info and nearby charging stations, including the max travel distance.</p>
+                <p class="project-skills"></p>
+              </div>
+              </div>
+
+    </section>
+  </div>
+</div>
+<app-email></app-email>
+<script type="module">
+  document.getElementById('emailButton').addEventListener('click', () => {
+      const emailAddress = 'kulkarni.pre@northeastern.edu';
+      window.open('mailto:' + emailAddress);
+  });
+</script>

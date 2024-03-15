@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  z-index: 11;
+  width: 98%;
+  background-color: #0b192f;
+  margin-left: -1em;
+  padding: 2em;
+}
+
+ul {
+  width:100%;
+}
+
+img {
+  height: 4em;
+}
+
+a {
+  color: #ccd6f6;
+}
+
+a:hover {
+  color: #64ffeb;
+}
+
+button {
+  margin-left: 1em;
+  background-color: #ccd6f6;
+  color: #0b192f;
+  border-color: #ccd6f6;
+}
+
+button:hover {
+  color: #0b192f;
+  background-color: #64ffeb;
+  border-color: #64ffeb;
+}

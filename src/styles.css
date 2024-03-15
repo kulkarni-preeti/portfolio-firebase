@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body, html {
+  margin: 1.3em;
+  background-color: #0b192f;
+}
+
+header {
+  margin:1em
+}

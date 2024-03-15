@@ -1,0 +1,28 @@
+div {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  left: auto;
+  right: 40px;
+
+}
+
+.email-id {
+  color: #a8b2d1 ;
+  padding: 10px;
+  writing-mode: vertical-rl;
+  font-size:x-small;
+}
+
+.vertical-line {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 400px;
+  margin: 0px auto;
+  margin-bottom: -1em;
+  background-color: #a8b2d1;
+}
