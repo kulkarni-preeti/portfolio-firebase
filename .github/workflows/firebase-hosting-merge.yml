@@ -14,10 +14,8 @@ jobs:
       - run: npm install -g @angular/cli
       - run: npm install
       - run: ng build
-      - run: ls -la
-      - run: ls -la dist
       - run: ls -la dist/angular-portfolio
-      - run: cd dist/angular-portfolio
+      - run: ls -la dist/angular-portfolio/browser
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
